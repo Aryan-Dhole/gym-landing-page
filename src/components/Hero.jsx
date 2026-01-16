@@ -1,3 +1,5 @@
+import image1 from "/assets/hero/image1.jpg"
+
 function Hero() {
     return (
         <section id="home" className="relative w-full min-h-screen bg-[#0f0f0f] flex items-center justify-center">
@@ -5,9 +7,9 @@ function Hero() {
             {/* Background Image Right */}
             <div className="absolute inset-0 flex justify-end">
                 <img
-                    src="/assets/hero/image1.jpg"
+                    src={image1}
                     alt="gym"
-                    className="w-1/2 h-full object-cover hidden md:block opacity-90"
+                    className="w-full md:w-1/2 h-full object-cover opacity-90"
                 />
             </div>
 
