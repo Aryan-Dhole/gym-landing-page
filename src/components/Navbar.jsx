@@ -8,10 +8,11 @@ function Navbar() {
                 </h1>
 
                 <ul className="hidden md:flex items-center gap-8 text-white text-sm uppercase">
-                    <li className="cursor-pointer hover:text-[#7CFF4E] transition">Home</li>
-                    <li className="cursor-pointer hover:text-[#7CFF4E] transition">Programs</li>
-                    <li className="cursor-pointer hover:text-[#7CFF4E] transition">Trainers</li>
-                    <li className="cursor-pointer hover:text-[#7CFF4E] transition">Contact</li>
+                    <a href="#home">Home</a>
+                    <a href="#programs">Programs</a>
+                    <a href="#trainers">Trainers</a>
+                    <a href="#contact">Contact</a>
+
                 </ul>
 
                 <button className="hidden md:inline-block bg-[#7CFF4E] text-black px-4 py-2 rounded-md font-semibold text-sm hover:opacity-90 transition">

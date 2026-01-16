@@ -1,6 +1,6 @@
 function Hero() {
     return (
-        <section className="relative w-full min-h-screen bg-[#0f0f0f] flex items-center justify-center">
+        <section id="home" className="relative w-full min-h-screen bg-[#0f0f0f] flex items-center justify-center">
 
             {/* Background Image Right */}
             <div className="absolute inset-0 flex justify-end">

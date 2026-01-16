@@ -7,7 +7,7 @@ function Stats() {
     ];
 
     return (
-        <section className="w-full bg-black py-20 border-t border-white/10">
+        <section id="trainers" className="w-full bg-black py-20 border-t border-white/10">
             <div className="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
                 {stats.map((item, i) => (
                     <div key={i}>
