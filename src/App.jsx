@@ -5,6 +5,7 @@ import Stats from "./components/Stats";
 import Contact from "./components/Contacts";
 import Footer from "./components/Footer";
 import WhatsAppButton from "./components/WhatsAppButton";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <Programs />
       <Stats />
+      <Testimonials />
       <Contact />
       <Footer />
       <WhatsAppButton />
