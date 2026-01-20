@@ -7,12 +7,25 @@ export default function Contact() {
     const [phone, setPhone] = useState("");
     const [message, setMessage] = useState("");
 
-    const sendWhatsApp = () => {
-        const text = `Name: ${name}%0AEmail: ${email}%0APhone: ${phone}%0AMessage: ${message}`;
-        const phoneNumber = "917821815946"; // Change to gym owner's number
+    const handleSubmit = async (e) => {
+        e.preventDefault();
 
-        window.open(`https://wa.me/${phoneNumber}?text=${text}`, "_blank");
+        const payload = {
+            name,
+            email,
+            phone,
+            message
+        };
+
+        await fetch("https://hook.eu1.make.com/vmoebrxk2hjwapas4u8uof2epvfm41zw", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(payload)
+        });
+
+        alert("Submitted! We'll contact you shortly.");
     };
+
 
 
     return (
@@ -55,11 +68,12 @@ export default function Contact() {
                     ></textarea>
 
                     <button
-                        onClick={sendWhatsApp}
-                        className="mt-6 bg-[#30D158] hover:bg-[#26b148] text-black font-semibold px-8 py-3 rounded"
+                        onClick={handleSubmit}
+                        className="px-6 py-3 bg-lime-500 text-black font-semibold rounded-lg hover:bg-lime-400 transition"
                     >
                         Send Message
                     </button>
+
                 </div>
             </div>
             <div className="max-w-6xl mx-auto px-6 text-center mt-16">
