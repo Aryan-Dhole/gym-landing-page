@@ -1,5 +1,5 @@
 const WhatsAppButton = () => {
-    const phone = "917821815946"; // replace with any client's number
+    const phone = "919876543210"; // replace with client's mobile number
     const message = "Hi! I'm interested in joining FITCLUB.";
 
     return (

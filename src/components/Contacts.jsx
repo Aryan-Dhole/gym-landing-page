@@ -40,7 +40,7 @@ export default function Contact() {
 
                 {/* Form */}
                 <div className="space-y-4">
-                    <div className="space-x-2">
+                    <div className="space-x-2 space-y-1">
                         <input
                             className="bg-[#0e0e0e] border border-white/10 text-white px-4 py-3 rounded focus:outline-none focus:border-[#30D158]"
                             placeholder="Your Name"
@@ -85,13 +85,13 @@ export default function Contact() {
                         className="w-120 h-80 rounded-xl"
                         loading="lazy"
                         allowFullScreen
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2490.3340613077366!2d72.8521859838316!3d19.242961727219697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b13affffffff%3A0xfd071f1d3a7844ef!2sSt.%20Francis%20Institute%20of%20Technology!5e1!3m2!1sen!2sin!4v1768588677298!5m2!1sen!2sin">
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120628.02633086636!2d72.70246589726563!3d19.124064200000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9d357700753%3A0xbba9346d3615e71b!2sFitness%20Hub!5e0!3m2!1sen!2sin!4v1769180712786!5m2!1sen!2sin">
                     </iframe>
                 </div>
             </div>
 
         </section>
-    );
+    )
 }
 
 
