@@ -32,12 +32,14 @@ function Hero() {
                 </p>
 
                 <div className="flex gap-4 mt-8">
-                    <button className="bg-[#7CFF4E] text-black font-semibold px-6 py-3 rounded-md hover:opacity-90 transition">
+                    <a href="#contact"
+                        className="bg-[#7CFF4E] text-black font-semibold px-6 py-3 rounded-md hover:opacity-90 transition">
                         Get Started
-                    </button>
-                    <button className="border border-gray-500 text-white px-6 py-3 rounded-md hover:border-[#7CFF4E] hover:text-[#7CFF4E] transition">
+                    </a>
+                    <a href="#programs"
+                        className="border border-gray-500 text-white px-6 py-3 rounded-md hover:border-[#7CFF4E] hover:text-[#7CFF4E] transition">
                         View Programs
-                    </button>
+                    </a>
                 </div>
 
             </div>

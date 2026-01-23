@@ -3,6 +3,10 @@ import { useState } from "react";
 const Navbar = () => {
     const [open, setOpen] = useState(false);
 
+    const whatsappNumber = import.meta.env.VITE_WHATSAPP_NUMBER;
+    const whatsappLink = `https://wa.me/${whatsappNumber}?text=Hi!%20I'm%20interested%20in%20joining%20Fitclub`;
+
+
     const navLinks = [
         { label: "HOME", href: "#home" },
         { label: "PROGRAMS", href: "#programs" },
@@ -15,7 +19,7 @@ const Navbar = () => {
             <div className="max-w-7xl mx-auto flex items-center justify-between text-white px-5 py-4">
 
                 {/* Logo */}
-                <h1 className="text-xl font-bold">
+                <h1 className="text-2xl font-bold">
                     FIT<span className="text-green-500">CLUB</span>
                 </h1>
 
@@ -35,7 +39,7 @@ const Navbar = () => {
 
                 {/* Join btn (Desktop) */}
                 <a
-                    href="https://wa.me/919876543210"
+                    href={whatsappLink}
                     target="_blank"
                     className="hidden md:block px-4 py-2 bg-green-500 hover:bg-green-600 rounded-lg text-black font-semibold"
                 >
@@ -66,7 +70,7 @@ const Navbar = () => {
                     ))}
 
                     <a
-                        href="https://wa.me/919876543210"
+                        href={whatsappLink}
                         target="_blank"
                         className="px-4 py-2 bg-green-500 hover:bg-green-600 rounded-lg text-black font-semibold text-center"
                     >

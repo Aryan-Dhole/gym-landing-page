@@ -17,7 +17,7 @@ export default function Contact() {
             message
         };
 
-        await fetch("https://hook.eu1.make.com/vmoebrxk2hjwapas4u8uof2epvfm41zw", {
+        await fetch(`${import.meta.env.VITE_WEBHOOK_URL}`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(payload)
@@ -40,7 +40,7 @@ export default function Contact() {
 
                 {/* Form */}
                 <div className="space-y-4">
-                    <div className="space-x-2 space-y-1 flex justify-center items-center">
+                    <div className="space-x-3 space-y-1 flex justify-center items-center">
                         <input
                             className="bg-[#0e0e0e] border border-white/10 text-white px-4 py-3 rounded focus:outline-none focus:border-[#30D158]"
                             placeholder="Your Name"
