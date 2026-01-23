@@ -40,28 +40,28 @@ export default function Contact() {
 
                 {/* Form */}
                 <div className="space-y-4">
-                    <div className="space-x-3 space-y-1">
+                    <div className="flex flex-col md:flex-row gap-3">
                         <input
-                            className="bg-[#0e0e0e] border border-white/10 text-white px-4 py-3 rounded focus:outline-none focus:border-[#30D158]"
+                            className="w-full bg-[#0e0e0e] border border-white/10 text-white px-4 py-3 rounded focus:outline-none focus:border-[#30D158]"
                             placeholder="Your Name"
                             onChange={(e) => setName(e.target.value)}
                         />
 
                         <input
-                            className="bg-[#0e0e0e] border border-white/10 text-white px-4 py-3 rounded focus:outline-none focus:border-[#30D158]"
+                            className="w-full bg-[#0e0e0e] border border-white/10 text-white px-4 py-3 rounded focus:outline-none focus:border-[#30D158]"
                             placeholder="Email"
                             onChange={(e) => setEmail(e.target.value)}
                         />
 
                         <input
-                            className="bg-[#0e0e0e] border border-white/10 text-white px-4 py-3 rounded focus:outline-none focus:border-[#30D158]"
+                            className="w-full bg-[#0e0e0e] border border-white/10 text-white px-4 py-3 rounded focus:outline-none focus:border-[#30D158]"
                             placeholder="Phone"
                             onChange={(e) => setPhone(e.target.value)}
                         />
                     </div>
 
                     <textarea
-                        className="bg-[#0e0e0e] border border-white/10 text-white px-4 py-3 rounded w-full mt-4 max-w-3xl mx-auto block focus:outline-none focus:border-[#30D158]"
+                        className="bg-[#0e0e0e] border border-white/10 text-white px-4 py-3 rounded w-full mt-4 mx-auto block focus:outline-none focus:border-[#30D158]"
                         placeholder="Message..."
                         rows={4}
                         onChange={(e) => setMessage(e.target.value)}
