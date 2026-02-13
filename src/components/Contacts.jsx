@@ -78,14 +78,14 @@ export default function Contact() {
             </div>
             <div className="max-w-6xl mx-auto px-6 text-center mt-16">
                 <h3 className="text-white text-2xl font-bold mb-2">Visit Us</h3>
-                <p className="text-gray-300 mb-4">123 Main Road, Andheri, Mumbai</p>
+                <p className="text-gray-300 mb-4">Nxt to Indraprashtha Hall, B, Vershikara compound, 262, R. Road, Vaishali Nagar, Mulund West, Mumbai, Maharashtra 400080</p>
 
                 <div className="flex justify-center items-center">
                     <iframe
                         className="w-120 h-80 rounded-xl"
                         loading="lazy"
                         allowFullScreen
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120628.02633086636!2d72.70246589726563!3d19.124064200000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9d357700753%3A0xbba9346d3615e71b!2sFitness%20Hub!5e0!3m2!1sen!2sin!4v1769180712786!5m2!1sen!2sin">
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22344.071715611644!2d72.93092330105186!3d19.169157868988734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b9003896a149%3A0x9b30448ae2e28fdd!2sWorld%20Fitness!5e1!3m2!1sen!2sin!4v1771006720700!5m2!1sen!2sin">
                     </iframe>
                 </div>
             </div>

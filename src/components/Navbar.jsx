@@ -20,7 +20,7 @@ const Navbar = () => {
 
                 {/* Logo */}
                 <h1 className="text-2xl font-bold">
-                    FIT<span className="text-green-500">CLUB</span>
+                    WORLD<span className="text-green-500">FITNESS</span>
                 </h1>
 
                 {/* Desktop Menu */}

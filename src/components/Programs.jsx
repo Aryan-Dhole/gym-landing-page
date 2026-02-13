@@ -41,6 +41,24 @@ function Programs() {
                 </div>
 
             </div>
+            {/* Quick Gym Preview Images */}
+            <div className="max-w-7xl mx-auto px-4 mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                <img
+                    src="/assets/hero/image2.png"
+                    alt="Gym preview 1"
+                    className="w-full h-48 object-cover rounded-lg"
+                />
+                <img
+                    src="/assets/hero/image3.png"
+                    alt="Gym preview 2"
+                    className="w-full h-48 object-cover rounded-lg"
+                />
+                <img
+                    src="/assets/hero/image4.png"
+                    alt="Gym preview 3"
+                    className="w-full h-48 object-cover rounded-lg"
+                />
+            </div>
         </section>
     );
 }

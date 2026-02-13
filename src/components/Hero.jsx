@@ -19,8 +19,8 @@ function Hero() {
             {/* Content */}
             <div className="relative z-10 max-w-7xl w-full mx-auto px-6 flex flex-col items-start justify-center min-h-screen">
 
-                <h2 className="text-[#7CFF4E] uppercase tracking-widest text-sm mb-4">
-                    Welcome to FitClub
+                <h2 className="text-white uppercase tracking-widest text-sm mb-4">
+                    Welcome to <span className="text-green-400"> World Fitness forever</span>
                 </h2>
 
                 <h1 className="text-white text-4xl md:text-6xl font-extrabold leading-tight max-w-lg">
