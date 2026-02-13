@@ -3,7 +3,7 @@ function Footer() {
         <footer className="bg-black py-10 border-t border-white/10">
             <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
                 <h2 className="text-xl font-bold text-white">
-                    FIT<span className="text-[#30D158]">CLUB</span>
+                    WORLD <span className="text-[#30D158]">FITNESS</span>
                 </h2>
 
                 <nav className="flex gap-6 text-gray-400 text-sm">
@@ -14,7 +14,7 @@ function Footer() {
                 </nav>
 
                 <p className="text-gray-500 text-xs">
-                    © {new Date().getFullYear()} FITCLUB. All rights reserved.
+                    © {new Date().getFullYear()} World Fitness Forever. All rights reserved.
                 </p>
             </div>
         </footer>
